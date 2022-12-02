@@ -1,0 +1,11 @@
+DEBUG:root:this is a debug log
+INFO:root:this is a info log
+WARNING:root:this is a warning info
+ERROR:root:this is an error info
+CRITICAL:root:this is a critical info
+DEBUG:root:name alice, age 18
+DEBUG:root:name alice, age 18
+DEBUG:root:name alice, age 18
+DEBUG:root:name alice, age 18
+DEBUG:root:name alice, age 18
+INFO:root:name alice, age 18

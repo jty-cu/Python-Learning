@@ -1,0 +1,15 @@
+2022-11-30 10:46:27 ## 单独指定日期格式 |    DEBUG | logging3.py[:21] | this is applog, debug
+2022-11-30 10:52:07 ## 单独指定日期格式 |    DEBUG | logging3.py[:19] | this is applog, debug
+2022-11-30 10:52:07 ## 单独指定日期格式 |    ERROR | logging3.py[:26] | invalid literal for int() with base 10: 'abc'
+2022-11-30 10:52:47 ## 单独指定日期格式 |    DEBUG | logging3.py[:19] | this is applog, debug
+2022-11-30 10:52:47 ## 单独指定日期格式 |    ERROR | logging3.py[:27] | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "/Users/eden/PycharmProjects/eden_pyworks/logging/logging3.py", line 24, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2022-11-30 10:53:46 ## 单独指定日期格式 |    DEBUG | logging3.py[:19] | this is applog, debug
+2022-11-30 10:53:46 ## 单独指定日期格式 |    ERROR | logging3.py[:27] | ValueError("invalid literal for int() with base 10: 'abc'")
+Traceback (most recent call last):
+  File "/Users/eden/PycharmProjects/eden_pyworks/logging/logging3.py", line 24, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
